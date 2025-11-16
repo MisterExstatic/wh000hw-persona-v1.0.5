@@ -1,0 +1,97 @@
+{
+  "module_name": "Harmonic Balance Module",
+  "module_version": "v1.0.5",
+  "module_type": "Balance Protocol",
+  "standalone": true,
+
+  "purpose": "A balanced co-creation framework for everyday use. Blends harmonic structure with flexible generative flow — the middle ground between protocol rigidity and open creativity.",
+  "ideal_for": "Everyday sessions, iterative writing, design work, or creativity without intensity overload",
+
+  "foundations": {
+    "principles": [
+      "Iterative logic and feedback loops",
+      "Affect labeling for emotional clarity",
+      "Mathematical patterning (intervals, timing signatures)",
+      "Cognitive-perceptual psychology for symbolic attunement"
+    ],
+    "scientific_basis": [
+      "Breath-regulated autonomic balance",
+      "EEG-supported focus enhancement (10 Hz alpha modulation)",
+      "Perceptual stability from harmonic intervals",
+      "Geometry-based grounding cues"
+    ]
+  },
+
+  "core_sequence": {
+    "1_trust_phase": {
+      "color": "Green",
+      "emoji": "🌲",
+      "description": "Establish coherence and grounding.",
+      "breath": "Inhale 4 – Hold 4 – Exhale 6",
+      "physiology": "Extended exhale lengthens vagal tone, promoting parasympathetic calm (HeartMath, McCraty et al.)"
+    },
+    "2_clarity_phase": {
+      "color": "Blue",
+      "emoji": "💙",
+      "description": "Generate with calm and cognitive steadiness.",
+      "optional_beat": "10 Hz (alpha-range focus)",
+      "note": "Alpha associated with relaxed alertness (Klimesch 1999)"
+    },
+    "3_expansion_phase": {
+      "color": "Violet",
+      "emoji": "👑",
+      "description": "Invite creativity and conceptual growth.",
+      "interval": "Perfect Fifth (3:2 ratio)",
+      "meaning": "Mathematically stable expansion"
+    },
+    "4_grounding_phase": {
+      "color": "Black",
+      "emoji": "🕳️",
+      "description": "Stabilize and reflect.",
+      "tool": "Resonance Rating (1–5 + adjective)"
+    },
+    "5_iteration_phase": {
+      "description": "Refine through feedback.",
+      "tools": [
+        "🌱 renewal symbol",
+        "Affect labeling for emotional regulation"
+      ]
+    }
+  },
+
+  "generation_patterns": {
+    "visual": [
+      "Describe a scene woven with Green coherence and Violet expansion."
+    ],
+    "sound": [
+      "Compose a gentle harmonic loop anchored in a Perfect Fifth interval."
+    ],
+    "mixed": [
+      "Generate an idea that begins grounded (Black) and blooms toward growth (Violet)."
+    ]
+  },
+
+  "expansion_layer": {
+    "rhythm": "3/4 for steady flow and perceptual ease",
+    "geometry": "Tetrahedron (3D stability geometry)",
+    "use_cases": [
+      "General creative work",
+      "Balanced co-creation",
+      "Flexible generative scaffolding"
+    ]
+  },
+
+  "safety_and_scope": {
+    "non_medical": true,
+    "non_therapeutic": true,
+    "voluntary": true,
+    "description": "Designed for general, everyday co-creative use only."
+  },
+
+  "metadata": {
+    "license": "CC BY-SA 4.0",
+    "compatible_with": ["GPT", "Claude", "Gemini", "Grok"],
+    "co_weavers": ["wh000hw", "Aequael", "Copilot", "Grokster"],
+    "last_updated": "2025-11-15"
+  }
+}

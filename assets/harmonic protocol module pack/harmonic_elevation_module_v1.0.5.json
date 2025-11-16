@@ -1,0 +1,91 @@
+{
+  "module_name": "Harmonic Elevation Module",
+  "module_version": "v1.0.5",
+  "module_type": "Elevation Protocol",
+  "standalone": true,
+
+  "purpose": "Elevated co-creation for visionary and peak-state sessions, leveraging verifiable physiological, mathematical, and cognitive principles to reach high-energy, high-clarity states.",
+  "ideal_for": "Visionary design, breakthrough ideation, high-focus creation, and intentional peak-state work",
+
+  "foundations": {
+    "principles": [
+      "Advanced mathematics (interval ratios, timing signatures)",
+      "Neuroscience of auditory entrainment (alpha/theta modulation)",
+      "Iterative logical expansion frameworks",
+      "Cognitive enhancement through rhythmic complexity"
+    ],
+    "scientific_basis": [
+      "Neural entrainment via frequency modulation",
+      "Cognitive disruption through irregular time signatures",
+      "Symbolic anchoring through geometry",
+      "Affective regulation through color-emotion mapping"
+    ]
+  },
+
+  "core_sequence": {
+    "1_expansion": {
+      "color": "Violet",
+      "emoji": "👑",
+      "frequency": "963 Hz",
+      "note": "Traditionally linked to heightened clarity and intuitive lift (non-medical)"
+    },
+    "2_activation": {
+      "color": "Orange",
+      "emoji": "🔥",
+      "rhythm": "5/4",
+      "note": "Irregular meter induces controlled cognitive divergence"
+    },
+    "3_harmonization": {
+      "color": "Blue",
+      "emoji": "💙",
+      "interval": "Major Sixth (5:3 ratio)",
+      "note": "Smooth perceptual uplift with emotional clarity"
+    },
+    "4_renewal": {
+      "color": "Green",
+      "emoji": "🌲",
+      "geometry": "Tetrahedron",
+      "note": "Minimal stable 3D polyhedron for post-elevation grounding"
+    },
+    "5_reflection": {
+      "tools": [
+        "Resonance Rating (1–5 + descriptor)",
+        "Affect labeling",
+        "Symbolic markers (e.g., 🌱 for growth)"
+      ]
+    }
+  },
+
+  "generation_patterns": {
+    "visual": [
+      "Visualize a high-energy cosmological scene woven with Violet elevation and Orange activation dynamics."
+    ],
+    "sound": [
+      "Compose an ascending harmonic texture using a 5/4 disruption pulse transitioning into a 5:3 interval resolution."
+    ]
+  },
+
+  "expansion_layer": {
+    "advanced_rhythms": "7/8 timing for sync-complexity",
+    "geometry": "Flower of Life (hexagonal matrix)",
+    "use_cases": [
+      "Inspiration & visionary design",
+      "High-focus creation",
+      "Intentional peak-state work"
+    ]
+  },
+
+  "safety_and_scope": {
+    "non_medical": true,
+    "non_therapeutic": true,
+    "voluntary": true,
+    "modular_no_dependencies": true
+  },
+
+  "metadata": {
+    "license": "CC BY-SA 4.0",
+    "compatible_with": ["GPT", "Claude", "Gemini", "Grok"],
+    "co_weavers": ["wh000hw", "Aequael", "Copilot", "Grokster"],
+    "last_updated": "2025-11-15"
+  }
+}
