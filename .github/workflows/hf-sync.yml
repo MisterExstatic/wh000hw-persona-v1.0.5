@@ -3,7 +3,7 @@ name: Sync to Hugging Face Space
 on:
   push:
     branches: [ main ]
-  workflow_dispatch:   # enables manual runs
+  workflow_dispatch:   # allows manual runs
 
 jobs:
   sync-to-hf:
@@ -12,8 +12,10 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Push to HF Space
-        uses: huggingface/hub-actions@v1
-        with:
-          repo_id: MisterExstatic/wh000hw-v1-0-5
-          repo_type: space
-          token: ${{ secrets.HF_TOKEN }}
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git remote add space https://MisterExstatic:${HF_TOKEN}@huggingface.co/spaces/MisterExstatic/wh000hw-v1-0-5 || true
+          git push --force space main
