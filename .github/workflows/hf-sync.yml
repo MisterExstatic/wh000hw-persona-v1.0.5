@@ -1,4 +1,5 @@
 name: Sync to Hugging Face Space
+
 on:
   push:
     branches: [ main ]
@@ -12,20 +13,20 @@ jobs:
         with:
           fetch-depth: 0
 
-      # Remove all binaries before pushing to HF
-      - name: Remove binary assets
+      # Remove all binary assets before pushing to HF
+      - name: Remove binary assets for HF push
         run: |
           git rm -r --cached assets/canonical/*.png || true
           git rm -r --cached assets/canonical/*.jpg || true
           git rm -r --cached assets/canonical/*.gif || true
           git rm -r --cached assets/canonical/*.mp4 || true
           git rm -r --cached assets/canonical/*.zip || true
-          git commit -m "chore: remove binaries for HF push" || echo "No binaries to remove"
+          git commit -m "chore: remove binaries for HF push" || echo "No changes to commit"
 
-      # Push the clean version to HF
+      # Push the clean version to HF Space
       - name: Push to HF Space
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          git remote add space https://huggingface.co/spaces/MisterExstatic/wh000hw-persona-v1.0.5 || true
+          git remote add space https://:${HF_TOKEN}@huggingface.co/spaces/MisterExstatic/wh000hw-persona-v1.0.5 || true
           git push --force space main
