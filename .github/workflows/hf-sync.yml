@@ -3,13 +3,16 @@ name: Sync to Hugging Face Space
 on:
   push:
     branches: [ main ]
-  workflow_dispatch:   # allows manual runs
+  workflow_dispatch:
 
 jobs:
   sync-to-hf:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout full history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # <-- ensures full history, not shallow
 
       - name: Push to HF Space
         env:
