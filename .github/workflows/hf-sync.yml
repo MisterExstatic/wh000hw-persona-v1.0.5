@@ -14,6 +14,12 @@ jobs:
         with:
           fetch-depth: 0   
 
+      # Remove binaries before pushing to Hugging Face
+      - name: Remove binary assets for HF
+        run: |
+          rm -rf assets/canonical/**/*.jpg
+          rm -rf assets/canonical/**/*.png
+
       - name: Push to HF Space
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
