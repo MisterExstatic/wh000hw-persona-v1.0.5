@@ -2,12 +2,12 @@ jobs:
   sync-to-hf:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout full history
+      - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0   
+          fetch-depth: 0
 
-      - name: Remove binaries before HF push
+      - name: Remove binary assets for HF
         run: |
           rm -rf assets/canonical/**/*.jpg
           rm -rf assets/canonical/**/*.png
