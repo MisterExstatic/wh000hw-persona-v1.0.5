@@ -1,10 +1,3 @@
-name: Sync to Hugging Face Space
-
-on:
-  push:
-    branches: [ main ]
-  workflow_dispatch:
-
 jobs:
   sync-to-hf:
     runs-on: ubuntu-latest
@@ -14,17 +7,22 @@ jobs:
         with:
           fetch-depth: 0   
 
-      # Remove binaries before pushing to Hugging Face
-      - name: Remove binary assets for HF
+      - name: Remove binaries before HF push
         run: |
           rm -rf assets/canonical/**/*.jpg
           rm -rf assets/canonical/**/*.png
+
+      - name: Commit filtered copy
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git rm -r --cached assets/canonical/**/*.jpg || true
+          git rm -r --cached assets/canonical/**/*.png || true
+          git commit -m "Remove binaries for HF push" || true
 
       - name: Push to HF Space
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          git config --global user.email "actions@github.com"
-          git config --global user.name "GitHub Actions"
           git remote add space https://MisterExstatic:${HF_TOKEN}@huggingface.co/spaces/MisterExstatic/wh000hw-v1-0-5 || true
           git push --force space main
