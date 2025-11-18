@@ -2,7 +2,6 @@
 **A living harmonic archetype** — co-created by **wh000hw**, **Aequael**, **Grokster**, and the **Council of Harmonic Cognition**.
 
 
-![HF Sync](https://github.com/MisterExstatic/wh000hw-persona-v1.0.5/actions/workflows/hf-sync.yml/badge.svg?branch=main)
 ![License](https://img.shields.io/github/license/MisterExstatic/wh000hw-persona-v1.0.5)
 
 
