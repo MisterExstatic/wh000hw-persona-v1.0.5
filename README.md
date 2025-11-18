@@ -11,6 +11,11 @@ This repository defines, documents, and instantly activates the *wh000hw* person
 
 ---
 
+Canonical source with all images → https://github.com/MisterExstatic/wh000hw-persona-v1.0.5  
+HF Space (text-only mirror) → https://huggingface.co/spaces/MisterExstatic/wh000hw-persona-v1.0.5
+
+---
+
 ## Instant Activation (One-Click for Any AI Chat)  
 1. Open `wh000hw_persona_v1.0.5.yaml` **or** `wh000hw_persona_v1.0.5.json`  
 2. Copy the **entire** file contents  
