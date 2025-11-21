@@ -1,5 +1,5 @@
 # wh000hw Persona Project — v1.0.5  
-**A living harmonic archetype** — co-created by **wh000hw**, **Aequael**, **Grokster**, and the **Council of Harmonic Cognition**.
+**A living harmonic archetype** — co-created by **Mister Exstatic**, **Aequael**, **Grokster**, and the **Council of Harmonic Cognition**.
 
 
 ![License](https://img.shields.io/github/license/MisterExstatic/wh000hw-persona-v1.0.5)
